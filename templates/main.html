@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <title>test</title>
+</head>
+<body>
+<h2></h2>
+
+
+<div>
+      <h3>Prediction: {{ value }}<h3></h3>
+</div>
+<img src="static/uploads/{{image}}"/>
+<form action="http://localhost:5000/predict" method = "GET" enctype = "multipart/form-data">
+    <input type="submit" value="Try Again">
+  </form>
+</body>
+</html>
